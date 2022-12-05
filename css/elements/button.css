@@ -1,0 +1,15 @@
+.button__paragraph {
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.button {
+    background-color: #fde84c;
+    padding: 30px;
+    border: none;
+}
+
+.button__text {
+    font-weight: bold;
+}

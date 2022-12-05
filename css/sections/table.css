@@ -1,0 +1,40 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    vertical-align: middle;
+}
+
+.table__caption {
+    caption-side: top;
+    margin: 10px;
+}
+
+.table__row:nth-child(even) {
+    background-color: #54545675;
+    cursor: pointer;
+}
+
+.table__row:hover {
+    background-color: #00000975;
+    cursor: pointer;
+}
+
+.table__cell {
+    border: 1px solid #000009;
+    text-align: center;
+    padding: 30px;
+}
+
+.table__header {
+    background-color: #fde84c;
+    color: #000009;
+}
+
+.table__header--italic {
+    font-style: italic;
+}
+
+.table__header:hover {
+    background-color: #d4c022cb;
+    color: #000009;
+}

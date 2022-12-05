@@ -1,0 +1,32 @@
+.navigation {
+    display: flex;
+}
+
+.navigation__button {
+    display: flex;
+    list-style: none;
+    background-color: #80808048;
+    border-bottom: 1px solid #fde84c;
+    width: 25%;
+    justify-content: center;
+}
+
+.navigation__item {
+    padding: 10px 0;
+}
+
+.navigation__link {
+    color: #fde84c;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.navigation__link:focus {
+    outline: 2px solid #fff;
+}
+
+.navigation__link:hover {
+    color: #fde84cb6;
+    outline: none;
+}
