@@ -1,6 +1,6 @@
 # Szymon Basiul - my homepage
 
-![Simon](images/BasiulSzymon.jpg =360x)
+![Simon](https://github.com/szymonbasiul/homepage/raw/main/images/BasiulSzymon.jpg =360x)
 
 
 ## Demo
