@@ -1,10 +1,21 @@
-console.log("Moja pierwsza wizytówka - miłej lektury ;)")
+{
+    const greetings = () => {
+        console.log("Moja pierwsza wizytówka - miłej lektury ;)")
+    }
 
-let button = document.querySelector(".js-button");
-let body = document.querySelector(".body");
-let buttonText = document.querySelector(".js-button-text");
+    const toggleBackgroundColor = () => {
+        const body = document.querySelector(".js-body");
+        const buttonText = document.querySelector(".js-button-text");
 
-button.addEventListener("click", () => {
-    body.classList.toggle("lightBody");
-    buttonText.innerText = body.classList.contains("lightBody") ? "dark" : "light";
-});
+        body.classList.toggle("lightBody");
+        buttonText.innerText = body.classList.contains("lightBody") ? "dark" : "light";
+    };
+
+    const init = () => {
+        const button = document.querySelector(".js-button");
+        button.addEventListener("click", toggleBackgroundColor);
+        greetings();
+    }
+
+    init();
+}
