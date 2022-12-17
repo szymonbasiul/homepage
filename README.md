@@ -7,6 +7,14 @@
 
 https://szymonbasiul.github.io/homepage/
 
+## Technology and methodology
+
+HTML
+JS
+ES6+
+CSS
+BEM
+
 
 ## Description
 
